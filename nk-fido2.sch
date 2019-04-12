@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Nitrokey FIDO2"
-Date "2019-01-07"
-Rev "R1"
+Date "2019-04-11"
+Rev "R2"
 Comp "Nitrokey"
 Comment1 ""
 Comment2 ""
@@ -625,13 +625,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3900 4000 3900
 Wire Wire Line
-	5300 4500 5300 4700
-Wire Wire Line
 	5800 4500 5800 4600
-Wire Wire Line
-	5700 4500 5700 5000
-Wire Wire Line
-	5600 4500 5600 4900
 Wire Wire Line
 	6500 3400 7150 3400
 Wire Wire Line
@@ -694,10 +688,6 @@ Wire Wire Line
 	7800 1950 7750 1950
 Wire Wire Line
 	7350 1950 7300 1950
-Text Label 4600 4900 0    60   ~ 0
-STX
-Text Label 4600 5000 0    60   ~ 0
-SRX
 $Comp
 L nk_fido2:+3V3 #+3V03
 U 1 1 5C5FD505
@@ -715,8 +705,6 @@ Wire Wire Line
 	5900 4500 5900 4700
 Wire Wire Line
 	6300 4600 6300 4500
-Text Label 4600 4700 0    60   ~ 0
-SWO
 Text Label 4150 3900 0    60   ~ 0
 SWCLK
 Text Label 4150 3800 0    60   ~ 0
@@ -2034,12 +2022,6 @@ Wire Wire Line
 	5200 4500 5200 4600
 Wire Wire Line
 	4500 4600 5200 4600
-Wire Wire Line
-	4500 4700 5300 4700
-Wire Wire Line
-	4500 4900 5600 4900
-Wire Wire Line
-	4500 5000 5700 5000
 $Comp
 L nk_fido2:R R7
 U 1 1 5C6C5B41
@@ -2070,36 +2052,6 @@ F 7 "?" H 3850 3200 60  0001 C CNN "Distributer Link"
 	1    3850 3200
 	-1   0    0    1   
 $EndComp
-$Comp
-L nk_fido2:R R8
-U 1 1 5C6C6320
-P 7150 5750
-F 0 "R8" V 7050 5750 50  0000 C CNN
-F 1 "10K" V 7150 5750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 5750 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7150 5750 50  0001 C CNN
-F 4 "Vishay Dale" H 7150 5750 60  0001 C CNN "MFG Name"
-F 5 "?" H 7150 5750 60  0001 C CNN "MFG Part Num"
-F 6 "?" H 7150 5750 60  0001 C CNN "Distributer PN"
-F 7 "?" H 7150 5750 60  0001 C CNN "Distributer Link"
-	1    7150 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 5900 7150 6100
-Wire Wire Line
-	7150 5550 7150 5600
-$Comp
-L nk_fido2:+5V #+5V08
-U 1 1 5C6D2D89
-P 7150 5450
-F 0 "#+5V08" H 7150 5450 50  0001 C CNN
-F 1 "+5V" H 7100 5500 59  0000 L CNN
-F 2 "" H 7150 5450 50  0001 C CNN
-F 3 "" H 7150 5450 50  0001 C CNN
-	1    7150 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 3350 4050 3400
 Wire Wire Line
@@ -2129,4 +2081,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 3400 4050 3400
 NoConn ~ 3050 5750
+Text Label 4600 4600 0    60   ~ 0
+Button_reset
+NoConn ~ 4600 3300
+NoConn ~ 5300 4500
+NoConn ~ 5600 4500
+NoConn ~ 5700 4500
 $EndSCHEMATC
