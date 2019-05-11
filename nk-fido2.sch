@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Nitrokey FIDO2"
-Date "2019-04-11"
-Rev "R2"
+Date "2019-05-07"
+Rev "R3"
 Comp "Nitrokey"
 Comment1 ""
 Comment2 ""
@@ -627,7 +627,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4500 5800 4600
 Wire Wire Line
-	6500 3400 7150 3400
+	5300 2600 5300 2150
 Wire Wire Line
 	5200 2400 5200 2600
 $Comp
@@ -852,7 +852,7 @@ F 7 "?" H 2150 1650 60  0001 C CNN "Distributer Link"
 	-1   0    0    1   
 $EndComp
 NoConn ~ 2950 3800
-NoConn ~ 5300 2600
+NoConn ~ 6500 3400
 NoConn ~ 5800 2600
 NoConn ~ 6500 3600
 NoConn ~ 6500 3800
@@ -915,7 +915,7 @@ Wire Wire Line
 	8200 1550 8200 1750
 Wire Wire Line
 	8200 1750 8550 1750
-Text Label 6850 3400 0    60   ~ 0
+Text Label 5250 2150 2    60   ~ 0
 Button
 Wire Wire Line
 	6600 2600 6600 3700
@@ -2087,4 +2087,6 @@ NoConn ~ 4600 3300
 NoConn ~ 5300 4500
 NoConn ~ 5600 4500
 NoConn ~ 5700 4500
+Wire Wire Line
+	5300 2150 4950 2150
 $EndSCHEMATC
