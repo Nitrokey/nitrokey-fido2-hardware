@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:nk-fido2-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Nitrokey FIDO2"
-Date "2019-05-07"
-Rev "R3"
+Date "2019-10-14"
+Rev "R4"
 Comp "Nitrokey"
 Comment1 ""
 Comment2 ""
@@ -709,17 +709,6 @@ Text Label 4150 3900 0    60   ~ 0
 SWCLK
 Text Label 4150 3800 0    60   ~ 0
 SWDIO
-$Comp
-L nk_fido2:EAST1616RGBA3-LED-RGBCL-505S-X-SD-T D2
-U 1 1 5C62BDB6
-P 7300 2950
-F 0 "D2" V 6800 2900 59  0000 C CNN
-F 1 "EAST1616RGBA3-LED-RGB" V 6900 3450 59  0000 C CNN
-F 2 "library:CL-505S-X-SD-T_14" H 7300 2950 50  0001 C CNN
-F 3 "" H 7300 2950 50  0001 C CNN
-	1    7300 2950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7000 2400 7000 2750
 Wire Wire Line
@@ -2089,4 +2078,15 @@ NoConn ~ 5600 4500
 NoConn ~ 5700 4500
 Wire Wire Line
 	5300 2150 4950 2150
+$Comp
+L nk_fido2:CLMVC-FKA-CL1D1L71BB7C3C3 D2
+U 1 1 5DA147D8
+P 7300 2950
+F 0 "D2" V 7300 3150 59  0000 C CNN
+F 1 "CLMVC-FKA-CL1D1L71BB7C3C3" V 6900 3400 59  0000 C CNN
+F 2 "footprints:LED_Cree-PLCC4_2x2mm_CW" H 7300 2950 50  0001 C CNN
+F 3 "" H 7300 2950 50  0001 C CNN
+	1    7300 2950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
