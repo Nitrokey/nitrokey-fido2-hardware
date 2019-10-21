@@ -1,4 +1,4 @@
-28114529988143
+31257821246981
 footprints
 C_0402
 Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
@@ -125,3 +125,17 @@ USB
 0
 8
 8
+footprints
+WE-SMGS_3029040030025
+<b>WE-SMGS Surface Mount Solderable Gasket<BR></B>3X4X2.5mm
+
+0
+2
+2
+nitrokey-fido2-hardware-teil
+WE-SMGS_3029040030025
+<b>WE-SMGS Surface Mount Solderable Gasket<BR></B>3X4X2.5mm
+
+0
+2
+2

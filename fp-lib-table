@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty)(options "")(descr ""))
+  (lib (name nitrokey-fido2-hardware-teil)(type KiCad)(uri ${KIPRJMOD}/footprints.pretty/nitrokey-fido2-hardware-teil.pretty)(options "")(descr ""))
 )

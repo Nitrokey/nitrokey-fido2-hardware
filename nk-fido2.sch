@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Nitrokey FIDO2"
-Date "2019-10-14"
-Rev "R4"
+Date "2019-10-21"
+Rev "R5"
 Comp "Nitrokey"
 Comment1 ""
 Comment2 ""
@@ -93,8 +93,8 @@ $Comp
 L nk_fido2:TouchPAD P1
 U 1 1 58B45501
 P 4100 6100
-F 0 "P1" H 4300 6400 60  0000 C CNN
-F 1 "TouchPAD" H 4150 6300 60  0000 C CNN
+F 0 "P1" H 4400 6450 60  0000 C CNN
+F 1 "TouchPAD_WE_3029040030025" H 3750 6350 60  0000 C CNN
 F 2 "footprints:TouchPad" H 4100 6100 60  0001 C CNN
 F 3 "" H 4100 6100 60  0001 C CNN
 	1    4100 6100
