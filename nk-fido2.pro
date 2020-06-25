@@ -1,4 +1,4 @@
-update=21.10.2019 11:23:04
+update=Mi 22 Apr 2020 16:03:08 CEST
 version=1
 last_client=kicad
 [general]
@@ -11,6 +11,16 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -56,7 +66,7 @@ SilkTextUpright=1
 CopperLineWidth=0.15
 CopperTextSizeV=1.5
 CopperTextSizeH=1.2
-CopperTextThickness=0.3048
+CopperTextThickness=0.15
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.09906
@@ -70,7 +80,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0.05
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=Front
 Type=0
@@ -262,7 +272,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Touch
-Clearance=0.5
+Clearance=0.2
 TrackWidth=0.15
 ViaDiameter=0.5
 ViaDrill=0.2
@@ -293,13 +303,3 @@ uViaDrill=0.14986
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
